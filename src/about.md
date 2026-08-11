@@ -8,7 +8,13 @@ description: Brooke Lee is a Canadian, QWOC writer with a Master of Arts in Educ
 
 # About
 
-<img class="portrait" src="/img/portrait.jpg" width="720" height="540" alt="Portrait of Brooke Lee">
+<picture>
+  <source type="image/avif" sizes="(max-width: 45em) 100vw, 672px"
+          srcset="/img/portrait-720.avif 720w, /img/portrait-1440.avif 1440w">
+  <source type="image/webp" sizes="(max-width: 45em) 100vw, 672px"
+          srcset="/img/portrait-720.webp 720w, /img/portrait-1440.webp 1440w">
+  <img class="portrait" src="/img/portrait-720.jpg" width="720" height="540" alt="Portrait of Brooke Lee">
+</picture>
 
 Brooke Lee is a Canadian, QWOC writer with a Master of Arts in Education and Gender & Women’s Studies from McGill University. Through a historical lens, her writing centers on queer, feminist, and intersectional identity, as well as the literary arts scene of Montreal. Her work has been featured in Association of English Language Publishers of Quebec’s <em>Read Quebec</em> blog, <em>Montreal Review of Books</em>, <em>The Miramichi Reader</em>, and <em>The British Columbia Review</em>.
 
