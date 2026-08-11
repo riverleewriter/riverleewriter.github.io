@@ -1,0 +1,19 @@
+{
+  "title": "R L",
+  "author": "River Lee",
+  "url": "https://riverleewriter.ca",
+  "copyrightYears": "2025–2026",
+  "nav": [
+    { "label": "About", "url": "/about/" },
+    { "label": "Writing Portfolio", "url": "/portfolio/" },
+    { "label": "Services", "url": "/services/" },
+    { "label": "Contact", "url": "/contact/" }
+  ],
+  "socials": [
+    { "label": "Instagram", "url": "https://www.instagram.com/riverleewriter" },
+    { "label": "Goodreads", "url": "https://www.goodreads.com/riverleewriter" },
+    { "label": "SoundCloud", "url": "https://soundcloud.com/riverleewriter" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/brookeleemtl" },
+    { "label": "Facebook", "url": "https://www.facebook.com/brookeleemtl" }
+  ]
+}

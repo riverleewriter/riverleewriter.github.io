@@ -1,0 +1,14 @@
+{
+  "name": "riverleewriter",
+  "version": "1.0.0",
+  "description": "Author website for River Lee (Brooke Lee)",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

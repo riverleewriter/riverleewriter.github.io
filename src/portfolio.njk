@@ -1,0 +1,60 @@
+---
+layout: base.njk
+title: Writing Portfolio
+description: Articles, book reviews, and short fiction by River Lee (Brooke Lee).
+---
+
+<article class="prose portfolio">
+
+<h1>Writing Portfolio</h1>
+
+<section>
+  <h2>Articles</h2>
+  <ul class="pieces">
+    {% for item in portfolio.articles %}
+    <li>
+      <a href="{{ item.url }}" rel="noopener">{{ item.title }}</a>
+      in <cite>{{ item.publication }}</cite> ({{ item.year }})
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Book Reviews</h2>
+
+  <h3>Non-Fiction</h3>
+  <ul class="pieces">
+    {% for item in portfolio.reviews.nonfiction %}
+    <li>
+      <a href="{{ item.url }}" rel="noopener">{{ item.title }}</a>
+      in <cite>{{ item.publication }}</cite> ({{ item.year }})
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h3>Poetry</h3>
+  <ul class="pieces">
+    {% for item in portfolio.reviews.poetry %}
+    <li>
+      <a href="{{ item.url }}" rel="noopener">{{ item.title }}</a>
+      in <cite>{{ item.publication }}</cite> ({{ item.year }})
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Short Fiction</h2>
+  <ul class="pieces">
+    {% for item in portfolio.fiction %}
+    <li>
+      {% if item.byline %}<span class="byline">{{ item.byline }}</span>{% endif %}
+      <a href="{{ item.url }}" rel="noopener">{{ item.title }}</a>
+      in <cite>{{ item.publication }}</cite> ({{ item.year }})
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+</article>

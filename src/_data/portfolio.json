@@ -1,0 +1,79 @@
+{
+  "articles": [
+    {
+      "title": "“The Making of Lire Queer”",
+      "publication": "Read Quebec",
+      "year": 2026,
+      "url": "https://readquebec.ca/the-making-of-lire-queer/"
+    },
+    {
+      "title": "“Writes of Passage: 10 Years of Metonymy Press”",
+      "publication": "Read Quebec",
+      "year": 2025,
+      "url": "https://readquebec.ca/writes-of-passage/"
+    },
+    {
+      "title": "“Violet Hour: a reading series, a book club, a literary community”",
+      "publication": "Read Quebec",
+      "year": 2023,
+      "url": "https://readquebec.ca/violet-hour-a-reading-series-a-book-club-a-literary-community/"
+    }
+  ],
+  "reviews": {
+    "nonfiction": [
+      {
+        "title": "How to Move On: An Unfinished Memoir of Loss, Love, and Surviving Your Family by Joel Yanofsky",
+        "publication": "Montreal Review of Books",
+        "year": 2026,
+        "url": "https://mtlreviewofbooks.ca/reviews/how-to-move-on/"
+      },
+      {
+        "title": "The House is (Not) a Prison: On the Queerness of Architecture by Colin Ripley",
+        "publication": "Montreal Review of Books",
+        "year": 2025,
+        "url": "https://mtlreviewofbooks.ca/reviews/the-house-is-not-a-prison-on-the-queerness-of-architecture/"
+      },
+      {
+        "title": "Hope is a Woman’s Name: My Journey as a Bedouin Palestinian Activist in Israel by Amal Elsana Alh’jooj",
+        "publication": "Montreal Review of Books",
+        "year": 2024,
+        "url": "https://mtlreviewofbooks.ca/reviews/hope-is-a-womans-name-amal-elsana-alhjooj"
+      }
+    ],
+    "poetry": [
+      {
+        "title": "On Occasion: Poems for the People by Sina Queyras",
+        "publication": "Montreal Review of Books",
+        "year": 2026,
+        "url": "https://mtlreviewofbooks.ca/reviews/on-occasion-poems-for-the-people/"
+      },
+      {
+        "title": "Pilgrimages by Matthew Rettino",
+        "publication": "The Miramichi Reader",
+        "year": 2025,
+        "url": "https://miramichireader.ca/2025/10/pilgrimages-by-matthew-rettino/"
+      },
+      {
+        "title": "Compulsory Figures by John Barton",
+        "publication": "The British Columbia Review",
+        "year": 2025,
+        "url": "https://thebcreview.ca/2025/10/16/2695-barton-lee/"
+      },
+      {
+        "title": "The Idea of an Entire Life: Poems by Billy-Ray Belcourt",
+        "publication": "The British Columbia Review",
+        "year": 2025,
+        "url": "https://thebcreview.ca/2025/09/08/2654-belcourt-lee/"
+      }
+    ]
+  },
+  "fiction": [
+    {
+      "title": "“Tabs”",
+      "byline": "River Lee",
+      "publication": "On the Run: Contemporary Flash Fiction",
+      "year": 2023,
+      "url": "https://www.ontherunfiction.com/stories/tabs"
+    }
+  ]
+}
