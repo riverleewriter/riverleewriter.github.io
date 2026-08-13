@@ -224,10 +224,35 @@ a:hover { text-decoration-thickness: 2px; }
 }
 
 /* ---- About ---- */
+.bio { margin: 0 0 2rem; }
+.bio::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Floated, not a grid column: the bio runs much taller than the photo, so the text
+   needs to wrap back under it instead of leaving a dead column. */
+.bio picture {
+  display: block;
+  float: left;
+  width: 16rem;
+  margin: 0.4rem 1.5rem 0.5rem 0;
+}
 .portrait {
   width: 100%;
+  height: auto;
   border-radius: 2px;
-  margin: 0 0 2rem;
+}
+.bio-text p:last-child { margin-bottom: 0; }
+
+/* Same breakpoint the hero uses; below it the wrapped lines are too short to read. */
+@media (max-width: 40em) {
+  .bio picture {
+    float: none;
+    width: 100%;
+    max-width: 20rem;
+    margin: 0 0 1.25rem;
+  }
 }
 .funding {
   margin: 2.5rem 0;

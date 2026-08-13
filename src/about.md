@@ -8,17 +8,24 @@ description: Brooke Lee is a Canadian, QWOC writer with a Master of Arts in Educ
 
 # About
 
+<div class="bio">
+
 <picture>
-  <source type="image/avif" sizes="(max-width: 45em) 100vw, 672px"
+  <source type="image/avif" sizes="(max-width: 40em) 100vw, 16rem"
           srcset="/img/portrait-720.avif 720w, /img/portrait-1440.avif 1440w">
-  <source type="image/webp" sizes="(max-width: 45em) 100vw, 672px"
+  <source type="image/webp" sizes="(max-width: 40em) 100vw, 16rem"
           srcset="/img/portrait-720.webp 720w, /img/portrait-1440.webp 1440w">
   <img class="portrait" src="/img/portrait-720.jpg" width="720" height="540" alt="Portrait of Brooke Lee">
 </picture>
 
+<div class="bio-text">
+
 Brooke Lee is a Canadian, QWOC writer with a Master of Arts in Education and Gender & Women’s Studies from McGill University. Through a historical lens, her writing centers on queer, feminist, and intersectional identity, as well as the literary arts scene of Montreal. Her work has been featured in Association of English Language Publishers of Quebec’s <em>Read Quebec</em> blog, <em>Montreal Review of Books</em>, <em>The Miramichi Reader</em>, and <em>The British Columbia Review</em>.
 
 Brooke also writes fiction, songs, and poetry under the pen name River Lee. She is a former fiction mentee of the Quebec Writers’ Federation Mentorship Program, a Canada Council for the Arts grant recipient for her work-in-progress, debut novel (a blended work of prose and songs), and she hosts an online creative writing workshop called <a href="https://www.eventbrite.com/cc/sapphic-writes-literary-collective-4300663" rel="noopener">Sapphic Writes!</a>
+
+</div>
+</div>
 
 <figure class="funding">
   <img src="/img/canada-council.jpg" width="577" height="106" alt="Canada Council for the Arts">
