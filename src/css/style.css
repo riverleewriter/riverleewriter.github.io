@@ -9,7 +9,7 @@
 
 /* ---- Tokens (from the original theme) ---- */
 :root {
-  --bg: #ffffff;
+  --bg: #faf8f4;
   --text: #1e1e1e;
   --muted: #bbbbbb;
   --surface: #eeeeee;
@@ -114,7 +114,7 @@ a:hover { text-decoration-thickness: 2px; }
 .prose h3 {
   font-size: 1.05rem;
   margin: 1.5rem 0 0.5rem;
-  color: #555;
+  color: #7a5c72;
 }
 .prose p { margin: 0 0 1.1rem; }
 .prose section { margin-top: 1rem; }
@@ -256,7 +256,9 @@ a:hover { text-decoration-thickness: 2px; }
 .funding {
   margin: 2.5rem 0;
 }
-.funding img { width: 100%; max-width: 20rem; }
+/* The logo is a JPEG with a baked-in white box; multiply drops it out against
+   the cream page background. */
+.funding img { width: 100%; max-width: 20rem; mix-blend-mode: multiply; }
 .funding figcaption {
   font-size: 0.85rem;
   color: #555;
