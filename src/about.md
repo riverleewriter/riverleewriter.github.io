@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: About
-description: Brooke Lee is a Canadian, QWOC writer with a Master of Arts in Education and Gender & Women's Studies from McGill University.
+description: Brooke Lee is a Canadian, QWOC writer and musician based in Montreal.
 ---
 
 <article class="prose about">
@@ -20,9 +20,9 @@ description: Brooke Lee is a Canadian, QWOC writer with a Master of Arts in Educ
 
 <div class="bio-text">
 
-Brooke Lee is a Canadian, QWOC writer with a Master of Arts in Education and Gender & Women’s Studies from McGill University. Through a historical lens, her writing centers on queer, feminist, and intersectional identity, as well as the literary arts scene of Montreal. Her work has been featured in Association of English Language Publishers of Quebec’s <em>Read Quebec</em> blog, <em>Montreal Review of Books</em>, <em>The Miramichi Reader</em>, and <em>The British Columbia Review</em>.
+Brooke Lee is a Canadian, QWOC writer and musician based in Montreal. She hosts an online creative writing workshop called <a href="https://www.eventbrite.com/cc/sapphic-writes-literary-collective-4300663" rel="noopener">Sapphic Writes!</a> and her work has been featured in <em>Read Quebec</em>, <em>Montreal Review of Books</em>, <em>The Miramichi Reader</em>, and <em>The British Columbia Review</em>. In 2026, she founded <a href="https://subgenrespress.ca" rel="noopener">Subgenres</a>, a literary press for short fiction.
 
-Brooke also writes fiction, songs, and poetry under the pen name River Lee. She is a former fiction mentee of the Quebec Writers’ Federation Mentorship Program, a Canada Council for the Arts grant recipient for her work-in-progress, debut novel (a blended work of prose and songs), and she hosts an online creative writing workshop called <a href="https://www.eventbrite.com/cc/sapphic-writes-literary-collective-4300663" rel="noopener">Sapphic Writes!</a>
+Brooke also writes fiction and songs under the pen name River Lee. She is a former fiction mentee of the Quebec Writers’ Federation Mentorship Program, a fiction reader for the <em>Ex-Puritan</em>, and a Canada Council for the Arts grant recipient for her work-in-progress, debut novel (a blended work of prose and songs). She’s also the event producer and host of <a href="https://www.instagram.com/sundrop.mtl" rel="noopener">SUNDROP</a>: a community platform for musicians in Montreal.
 
 </div>
 </div>

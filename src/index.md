@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: null
-description: River Lee — writer of queer, feminist fiction and literary journalism; editor, ghostwriter, and workshop host in Montreal.
+description: River Lee - Multidisciplinary Artist
 eleventyNavigation:
   key: Home
 ---
@@ -20,7 +20,7 @@ eleventyNavigation:
   </picture>
   <div class="hero-text">
     <h1 class="hero-name">River Lee</h1>
-    <p class="hero-tagline">Writer of queer, feminist fiction and literary journalism. Editor, ghostwriter, and workshop host, based in Montreal.</p>
+    <p class="hero-tagline">Multidisciplinary Artist: Writer & Musician.<br>Works independently as an editor, workshop host, and event producer.<br>Based in Montreal.</p>
   </div>
-  <p class="hero-credit">Photo by <a href="https://unsplash.com/photos/x_CEJ7kn4w4" rel="noopener">the Bialons</a> on Unsplash</p>
+  <p class="hero-credit">Photo by <a href="https://unsplash.com/photos/x_CEJ7kn4w4" rel="noopener">the Bialons</a></p>
 </section>
