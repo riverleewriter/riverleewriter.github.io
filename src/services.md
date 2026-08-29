@@ -26,7 +26,7 @@ Since 2023, I’ve worked as a freelance developmental editor for short stories,
 
 ### Writers’ Craft Workshops
 
-In 2017, I graduated from McGill with an MA in Education & Women's Studies, and have since gained ample experience as a workshop facilitator, leading group discussions that center on communication, social mobility and professional development. More recently, I have also begun providing workshops on creative writing peer support, as well as writers’ craft. For in-person events, I’m based in Montreal.
+In 2017, I graduated from McGill with an MA in Education & Women's Studies, and have since gained ample experience as a workshop facilitator, leading group discussions that center on communication, social mobility, and professional development. More recently, I have also begun providing workshops on creative writing peer support, as well as writers’ craft. For in-person events, I’m based in Montreal.
 
 ### Literary & Music Events
 
