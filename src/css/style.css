@@ -20,7 +20,11 @@
 }
 
 /* ---- Reset ---- */
-*, *::before, *::after { box-sizing: border-box; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 html {
   -webkit-text-size-adjust: 100%;
   /* Contains the full-bleed hero so 100vw can't add a horizontal scrollbar. */
@@ -38,9 +42,18 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-img { max-width: 100%; height: auto; display: block; }
-a { color: inherit; text-underline-offset: 2px; }
-a:hover { text-decoration-thickness: 2px; }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  color: inherit;
+  text-underline-offset: 2px;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
 
 .skip-link {
   position: absolute;
@@ -116,8 +129,12 @@ a:hover { text-decoration-thickness: 2px; }
   margin: 1.5rem 0 0.5rem;
   color: #7a5c72;
 }
-.prose p { margin: 0 0 1.1rem; }
-.prose section { margin-top: 1rem; }
+.prose p {
+  margin: 0 0 1.1rem;
+}
+.prose section {
+  margin-top: 1rem;
+}
 
 /* ---- Home ---- */
 /* Full-bleed: escape the centred, padded .site-main column. */
@@ -226,7 +243,9 @@ a:hover { text-decoration-thickness: 2px; }
 }
 
 /* ---- About ---- */
-.bio { margin: 0 0 2rem; }
+.bio {
+  margin: 0 0 2rem;
+}
 .bio::after {
   content: "";
   display: block;
@@ -245,7 +264,9 @@ a:hover { text-decoration-thickness: 2px; }
   height: auto;
   border-radius: 2px;
 }
-.bio-text p:last-child { margin-bottom: 0; }
+.bio-text p:last-child {
+  margin-bottom: 0;
+}
 
 /* Same breakpoint the hero uses; below it the wrapped lines are too short to read. */
 @media (max-width: 40em) {
@@ -254,13 +275,24 @@ a:hover { text-decoration-thickness: 2px; }
     width: 100%;
     margin: 0 0 1.25rem;
   }
+  /* Shorter than the photo's own 720x760 so it doesn't dominate the page, but
+     tall enough to keep her whole head and the neckline in frame. */
+  .portrait {
+    aspect-ratio: 720 / 630;
+    object-fit: cover;
+    object-position: 50% 27%;
+  }
 }
 .funding {
   margin: 2.5rem 0;
 }
 /* The logo is a JPEG with a baked-in white box; multiply drops it out against
    the cream page background. */
-.funding img { width: 100%; max-width: 20rem; mix-blend-mode: multiply; }
+.funding img {
+  width: 100%;
+  max-width: 20rem;
+  mix-blend-mode: multiply;
+}
 .funding figcaption {
   font-size: 0.85rem;
   color: #555;
@@ -285,7 +317,9 @@ a:hover { text-decoration-thickness: 2px; }
   padding: 0.85rem 0;
   border-bottom: 1px solid var(--surface);
 }
-.portfolio cite { font-style: italic; }
+.portfolio cite {
+  font-style: italic;
+}
 .byline {
   display: block;
   font-size: 0.85rem;
@@ -302,8 +336,12 @@ a:hover { text-decoration-thickness: 2px; }
   color: var(--bg);
   text-decoration: none;
 }
-.button:hover { opacity: 0.85; }
-.cta { margin-top: 2.5rem; }
+.button:hover {
+  opacity: 0.85;
+}
+.cta {
+  margin-top: 2.5rem;
+}
 
 /* ---- Footer ---- */
 .site-footer {
@@ -315,4 +353,6 @@ a:hover { text-decoration-thickness: 2px; }
   font-size: 0.85rem;
   color: #555;
 }
-.site-footer p { margin: 0; }
+.site-footer p {
+  margin: 0;
+}

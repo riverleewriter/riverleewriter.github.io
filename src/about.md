@@ -15,7 +15,7 @@ description: Brooke Lee is a Canadian, QWOC writer and musician based in Montrea
           srcset="/img/portrait-720.avif 720w, /img/portrait-1440.avif 1440w">
   <source type="image/webp" sizes="(max-width: 40em) 100vw, 16rem"
           srcset="/img/portrait-720.webp 720w, /img/portrait-1440.webp 1440w">
-  <img class="portrait" src="/img/portrait-720.jpg" width="720" height="540" alt="Portrait of Brooke Lee">
+  <img class="portrait" src="/img/portrait-720.jpg" width="720" height="760" alt="Portrait of Brooke Lee">
 </picture>
 
 <div class="bio-text">
