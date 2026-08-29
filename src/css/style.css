@@ -270,10 +270,19 @@ a:hover {
 
 /* Same breakpoint the hero uses; below it the wrapped lines are too short to read. */
 @media (max-width: 40em) {
+  /* Photo reads as a sign-off under the bio here, so order it after the text. */
+  .bio {
+    display: flex;
+    flex-direction: column;
+  }
+  .bio::after {
+    display: none;
+  }
   .bio picture {
     float: none;
+    order: 2;
     width: 100%;
-    margin: 0 0 1.25rem;
+    margin: 1.5rem 0 0;
   }
   /* Shorter than the photo's own 720x760 so it doesn't dominate the page, but
      tall enough to keep her whole head and the neckline in frame. */
